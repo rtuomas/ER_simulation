@@ -1,0 +1,122 @@
+create database simulaattori;
+use simulaattori;
+
+create table Ilmoittautuminen (
+	id INTEGER not null AUTO_INCREMENT,
+	asiakkaatLkm DOUBLE,
+	jonoLopussa DOUBLE,
+	kotiin DOUBLE,
+	palvellut DOUBLE,
+	kayttoaste DOUBLE,
+	suoritusteho DOUBLE,
+	palveluaika DOUBLE,
+	oleskeluaika DOUBLE,
+	lapimenoaika DOUBLE,
+	jonoKeskim DOUBLE,
+	saaNopeus DOUBLE,
+	ilmNopeus DOUBLE,
+	arvNopeus DOUBLE,
+	laaNopeus DOUBLE,
+	rtglabNopeus DOUBLE,
+	PRIMARY KEY (id)
+	);
+
+create table Arviointi (
+	id INTEGER not null AUTO_INCREMENT,
+	asiakkaatLkm DOUBLE,
+	jonoLopussa DOUBLE,
+	kotiin DOUBLE,
+	palvellut DOUBLE,
+	kayttoaste DOUBLE,
+	suoritusteho DOUBLE,
+	palveluaika DOUBLE,
+	oleskeluaika DOUBLE,
+	lapimenoaika DOUBLE,
+	jonoKeskim DOUBLE,
+	saaNopeus DOUBLE,
+	ilmNopeus DOUBLE,
+	arvNopeus DOUBLE,
+	laaNopeus DOUBLE,
+	rtglabNopeus DOUBLE,
+	PRIMARY KEY (id)
+	);
+
+create table Laakari (
+	id INTEGER not null AUTO_INCREMENT,
+	asiakkaatLkm DOUBLE,
+	jonoLopussa DOUBLE,
+	kotiin DOUBLE,
+	palvellut DOUBLE,
+	kayttoaste DOUBLE,
+	suoritusteho DOUBLE,
+	palveluaika DOUBLE,
+	oleskeluaika DOUBLE,
+	lapimenoaika DOUBLE,
+	jonoKeskim DOUBLE,
+	saaNopeus DOUBLE,
+	ilmNopeus DOUBLE,
+	arvNopeus DOUBLE,
+	laaNopeus DOUBLE,
+	rtglabNopeus DOUBLE,
+	PRIMARY KEY (id)
+	);
+	
+create table Rontgen (
+	id INTEGER not null AUTO_INCREMENT,
+	asiakkaatLkm DOUBLE,
+	jonoLopussa DOUBLE,
+	kotiin DOUBLE,
+	palvellut DOUBLE,
+	kayttoaste DOUBLE,
+	suoritusteho DOUBLE,
+	palveluaika DOUBLE,
+	oleskeluaika DOUBLE,
+	lapimenoaika DOUBLE,
+	jonoKeskim DOUBLE,
+	saaNopeus DOUBLE,
+	ilmNopeus DOUBLE,
+	arvNopeus DOUBLE,
+	laaNopeus DOUBLE,
+	rtglabNopeus DOUBLE,
+	PRIMARY KEY (id)
+	);
+	
+create table Laboratorio (
+	id INTEGER not null AUTO_INCREMENT,
+	asiakkaatLkm DOUBLE,
+	jonoLopussa DOUBLE,
+	kotiin DOUBLE,
+	palvellut DOUBLE,
+	kayttoaste DOUBLE,
+	suoritusteho DOUBLE,
+	palveluaika DOUBLE,
+	oleskeluaika DOUBLE,
+	lapimenoaika DOUBLE,
+	jonoKeskim DOUBLE,
+	saaNopeus DOUBLE,
+	ilmNopeus DOUBLE,
+	arvNopeus DOUBLE,
+	laaNopeus DOUBLE,
+	rtglabNopeus DOUBLE,
+	PRIMARY KEY (id)
+	);
+	
+create table Osasto (
+	id INTEGER not null AUTO_INCREMENT,
+	asiakkaatLkm DOUBLE,
+	jonoLopussa DOUBLE,
+	kotiin DOUBLE,
+	palvellut DOUBLE,
+	kayttoaste DOUBLE,
+	suoritusteho DOUBLE,
+	palveluaika DOUBLE,
+	oleskeluaika DOUBLE,
+	lapimenoaika DOUBLE,
+	jonoKeskim DOUBLE,
+	saaNopeus DOUBLE,
+	ilmNopeus DOUBLE,
+	arvNopeus DOUBLE,
+	laaNopeus DOUBLE,
+	rtglabNopeus DOUBLE,
+	PRIMARY KEY (id)
+	);
